@@ -11,7 +11,7 @@ function volume_sphere(event) {
 
         volume.value = vol.toFixed(4);
     } else {
-        volume.value = '';
+        volume.value = 'NaN';
     }
 }
 
